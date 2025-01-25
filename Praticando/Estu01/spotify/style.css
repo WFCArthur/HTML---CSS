@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @charset "utf-8";
 
 
@@ -22,4 +23,30 @@ main img{
 }
 main audio{
     margin-left: 145px; 
+=======
+@charset "utf-8";
+
+
+body {
+    background-image: linear-gradient(to top, #1ED760,#2E2E2E);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 45%;
+    background-image: linear-gradient(to top, #1ED760 ,#2e2e2e);
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: 250px;
+    align-items: center;
+    border-radius: 20px;
+}
+main img{
+    border-radius: 10px; 
+    margin-left: 145px;
+}
+main audio{
+    margin-left: 145px; 
+>>>>>>> Stashed changes
 }

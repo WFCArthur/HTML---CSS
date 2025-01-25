@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @charset "utf-8";
 
 *{
@@ -30,4 +31,38 @@ main {
 
 body {
     background-image: linear-gradient(to right,#034159,#02735E);
+=======
+@charset "utf-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    color: #0CF25D;
+    text-align: center;
+    text-shadow: 1px 1px 2px #025951;
+}
+h2 {
+    color: #025951;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #038c3e9a;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+body {
+    background-image: linear-gradient(to right,#034159,#02735E);
+>>>>>>> Stashed changes
 }
