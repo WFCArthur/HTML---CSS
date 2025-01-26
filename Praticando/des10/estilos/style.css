@@ -94,6 +94,7 @@ main {
     background-color: white;
     min-width: 300px;
     max-width: 1000px;
+    margin: auto;
     padding: 20px;
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 20px;
