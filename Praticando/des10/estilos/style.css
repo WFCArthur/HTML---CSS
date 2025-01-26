@@ -152,7 +152,6 @@ main img {
 main img-pq {
     max-width: 10px;
     display: block;
-    margin: auto;
     padding: 10px;
 }
 
