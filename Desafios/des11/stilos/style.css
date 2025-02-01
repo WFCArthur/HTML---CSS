@@ -32,18 +32,18 @@ header {
 header  h1 {
     padding-top: 50px; /*PEDE PARA QUE TENHA UM ESPAÇO NO TOP DO TITULO*/
     font-variant: small-caps; /*ELE COLOCA COMO MAIUSCULA AS PRIMEIRAS LETRAS DE CADA PALAVRA*/
-    font-family: var(--fonte3);
-    font-size: 6vw;
+    font-family: var(--fonte3); /*ESSA É UMA FONTE QUE ESTÁ GUARDADA NUMA VARIAVEL*/
+    font-size: 6vw;/*TAMANHO DA LETRA*/
 }
 
 header  p {
-    padding-bottom: 50px;
+    padding-bottom: 50px; /*AQUI DAREMOS UM ESPAÇO EMBAIXO DO PARAGRAFO DO HEADER*/
 }
 
-header a, footer a  {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
+header a, footer a  { /*LINKS*/
+    color: white;/*COR DOS LINKS*/
+    text-decoration: none;/*TIRA A DECORAÇÃO DE UM LINK*/
+    font-weight: bolder;/*A EXPRESSURA DO TEXTO*/
 }
 
 header a:hover, footer a:hover {
