@@ -5,31 +5,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-:root {
+:root { /*ESSA É UMA FORMA DE CRIAR UMA VARIAVEL EM CSS.*/
     --font1:  Verdana, Geneva, Tahoma, sans-serif;
     --fonte2 : "Sriracha";
     --fonte3: "Passion One", serif;
 }
-* {
+* { /*ESSA DECLARAÇÃO PEDE PARA QUE A PAGINA DO SITE TENHA NADA DE MARGIN E ESPAÇO VOCÊ CONSEGUE OCUPAR O ESPAÇO DO*/
     margin: 0px;
     padding: 0px;
 }
 
 html, body {
-    min-height: 100vh;
-    background-color: darkgray;
-    font-family: var(--font1);
+    min-height: 100vh; /*TAMANHO DA PAGINA*/
+    background-color: darkgray; /*COR DA PAGINA*/
+    font-family: var(--font1);/*FONTE PADRÃO DA PAGINA*/
 }
 
+/*ESSA É A NAV DO SITE, CONTEM O TITULO E O MENU DE NAVEGAÇÃO*/
 header {
-    background-color: black;
-    color: white;
-    text-align: center;
+    background-color: black; /*COR DO SITE*/
+    color: white; /*COR DA LETRA*/
+    text-align: center;/*TEXTO DECLARADO AO CENTRO*/
 }
 
+/*ESSA DECLARAÇÃO É PARA O TITULO PRINCIPAL DO SITE*/
 header  h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
+    padding-top: 50px; /*PEDE PARA QUE TENHA UM ESPAÇO NO TOP DO TITULO*/
+    font-variant: small-caps; /*ELE COLOCA COMO MAIUSCULA AS PRIMEIRAS LETRAS DE CADA PALAVRA*/
     font-family: var(--fonte3);
     font-size: 6vw;
 }
