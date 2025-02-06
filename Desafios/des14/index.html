@@ -14,16 +14,16 @@
         }
 
         tr,th,td {
-            border: 1px solid black;
+            border: 1.5px solid black;
             padding: 10px;
         }
 
         th.rt {
-            background-color: darkgray;
+            background-color: #0000008d;
             color: white;
         }
         td.rt {
-            background-color: darkgray;
+            background-color: #0000008d;
             color: white;
         }
     </style>
@@ -32,19 +32,19 @@
     <table>
         <thead>
             <tr>
-                <th class="rt" rowspan="2">Área</th>
-                <th class="rt" rowspan="2">Diciplinas</th>
-                <th class="rt" colspan="2">Notas</th>
-                <th class="rt" rowspan="2">Média</th>
+                <th class="rt" rowspan="2" scope="col">Área</th>
+                <th class="rt" rowspan="2" scope="col">Diciplinas</th>
+                <th class="rt" colspan="2" scope="colgroup">Notas</th>
+                <th class="rt" rowspan="2" scope="col">Média</th>
             </tr>
             <tr>
-                <th class="rt">Nota 1</th>
-                <th class="rt">Nota 2</th>
+                <th class="rt" scope="col">Nota 1</th>
+                <th class="rt" scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
                 <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -68,10 +68,10 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <th class="rt" colspan="4">Média de Exatas</th>
+            <th class="rt" colspan="4" scope="row">Média de Exatas</th>
             <td class="rt">0.0</td>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
                 <td>História</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -84,7 +84,7 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th class="rt" colspan="4">Média de Humanas</th>
+                <th class="rt" colspan="4" scope="row">Média de Humanas</th>
                 <td class="rt">0.0</td>
             </tr>
         </tbody>
