@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com ColGroup</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .destaque {
+            background-color: aqua;
+        }
+
+        col.cnome {
+            background-color: aqua;
+        }
+
+        col.cgroup {
+            background-color: red;
+        }
+
+        col.ccomidas {
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>ColGroup</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgroup" span="2">
+            <col class="ccomidas">
+        </colgroup>
+        <tr>
+            <th>Nomes</th>
+            <th>Filmes</th>
+            <th>Series</th>
+            <th>Comidas Fav</th>
+        </tr>
+        <tr>
+            <td>Arthur</td>
+            <td>Harry Potter</td>
+            <td>Grim</td>
+            <td>Pizza</td>
+        </tr>
+        <tr>
+            <td>Elisa</td>
+            <td>Homen-Aranha</td>
+            <td>Bones</td>
+            <td>Strogonoff</td>
+        </tr>
+        <tr>
+            <td>Leticia</td>
+            <td>Vingadores</td>
+            <td>Dark</td>
+            <td>Frango Frito</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>Homen de Ferro</td>
+            <td>Elite</td>
+            <td>Hanburger</td>
+        </tr>
+    </table>
+</body>
+</html>
