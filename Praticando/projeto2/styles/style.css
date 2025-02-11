@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@ nav {
     width: 150px;
     height: 100vw;
     position: fixed;
-    background: linear-gradient(to right, #D9B343, #BF9A54);
+    background: linear-gradient(to right, #032859,#031D40);
     box-shadow: 2px -8px 8px 0px black;
 }
 
@@ -39,11 +40,13 @@ nav li {
 }
 
 header {
+    max-height: 1000vh;
+    background: linear-gradient(to top, #79BAF2,#9BD1F2);
     margin-left: 15px;
 }
 
 header h1 {
-    background-color: #393A10;
+    background-color: #055BA6;
     color: white;
     padding: 20px 0px 20px 0px;
     text-align: center;
@@ -71,19 +74,31 @@ article p {
 }
 
 .container-02{
-    width: 990px;
-    height: 720px;
-    margin-left: 50px;
-    background-color: #B6ECF2;
-    box-shadow: 0px 1px 8px 0px black;
+    width: 1083px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 400px;
+    background-image: url(../imagens/img-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-02 p {
+    width: 600px;
+    height: 500px;
+    margin-left: 20px;
+    background-color: #ffffff82;
+    border-radius: 10px;
+    color: #79BAF2;
 }
 
 .container-02 img {
-    margin-left: 255px;
+    
 }
 
 footer {
-    background-color: #393A10;
+    background-color: #055BA6;
     color: white;
     text-align: center;
     font-family: "Poppins", serif;
