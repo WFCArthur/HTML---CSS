@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.php">
+    <title>Cadastro</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>
+            <p>Dados Pessoais</p>
+            </legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="Nome" id="inome" required maxlength="30" minlength="10">
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="itel">Tel:</label>
+                <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxxx-xxxx">
+            </p>
+        </fieldset>
+        <!--Estudar mais sobre RegEx-->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

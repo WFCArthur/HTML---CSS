@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="color.php" method="get" autocomplete="on">
+        <p>
+            <label for="icor">Escolha uma Cor:</label>
+            <input type="color" name="cor" id="icor">
+        </p>
+        <p>
+            <label for="inive">Nivel da Cor</label>
+            <input type="range" name="nive" id="inive">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <!--PARA ENVIO DE ARQUIVO DEVEMOS SEMPRE USAR O METODO POST!!-->
+</body>
+</html>

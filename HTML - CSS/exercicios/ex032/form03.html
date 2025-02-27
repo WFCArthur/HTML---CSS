@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="imas">
+                <label for="imas">Masculino</label> <br>
+                <input type="radio" name="sexo" id="ifem" checked>
+                <label for="ifem">Feminino</label> <br>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <input type="checkbox" name="esfut" id="ifut" checked>
+                <label for="ifut">Futebol</label> <br>
+                <input type="checkbox" name="esvolei" id="ivolei">
+                <label for="ivolei">Volei</label> <br>
+                <input type="checkbox" name="esbasq" id="ibasq">
+                <label for="ibasq">Basquete</label> <br>
+                <input type="checkbox" name="esten" id="iten">
+                <label for="iten">Tenis</label> <br>
+                <input type="checkbox" name="esping" id="iping">
+                <label for="iping">Ping - Pong</label> <br>
+            </p>
+        </fieldset>
+        <p>
+            <label for="placa">Placa: </label>
+            <input type="text" name="website" pattern="[A-Za-z]{3}-[0-9]{4}">
+            <input type="submit">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
