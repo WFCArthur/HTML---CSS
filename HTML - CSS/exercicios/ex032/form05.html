@@ -13,7 +13,30 @@
 <body>
     <h1>Exemplo de Formulario</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        
-    </form>
-</body>
+        <label for="ieste">Estado</label>
+        <select name="estado" id="ieste">
+            <optgroup label="Região Sudeste">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernabuco</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+        </select>
+                <label for="iprof">Profissão:</label>
+                        <input type="text" name="prof" id="iprof" list="istprof" required>
+                            <datalist id="istprof">
+                                <option value="ADM">Administrador</option>
+                                <option value="CONT">Contabilista</option>
+                                <option value="DEV">Desenvolvedor</option>
+                                <option value="Prof">Professor</option>
+                            </datalist>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
 </html>
