@@ -3,5 +3,7 @@
 /*Aparelho empé*/
 
 body {
+    height: 105vh;
     background-image:url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }
